@@ -16,13 +16,23 @@ object Main {
    * Exercise 1
    */
   def pascal(c: Int, r: Int): Int = {
-    def factorial(n: Int): Int = {
-      if (n <= 0)
-        1
+    def fafa(r: List[Int]): List[Int] = {
+      if (r.isEmpty)
+        List()
+      else if (r.size == 1)
+        1 :: fafa(r.tail)
       else
-        n * factorial(n - 1)
+        r(0) + r(1) :: fafa(r.tail)
     }
-    factorial(r) / (factorial(c) * factorial(r - c))
+
+    def getRow(r: Int): List[Int] = {
+      if (r == 0)
+        List(1)
+      else {
+        1 :: fafa(getRow(r - 1))
+      }
+    }
+    getRow(r)(c)
   }
 
   /**
