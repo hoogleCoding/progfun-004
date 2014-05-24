@@ -7,6 +7,7 @@ import org.scalatest.junit.JUnitRunner
 
 @RunWith(classOf[JUnitRunner])
 class TweetSetSuite extends FunSuite {
+
   trait TestSets {
     val set1 = new Empty
     val set2 = set1.incl(new Tweet("a", "a body", 20))
@@ -34,7 +35,8 @@ class TweetSetSuite extends FunSuite {
 
   test("filter: a on set5") {
     new TestSets {
-      assert(size(set5.filter(tw => tw.user == "a")) === 1)
+      val result = set5.filter(tw => tw.user == "a")
+      assert(size(result) === 1)
     }
   }
 
