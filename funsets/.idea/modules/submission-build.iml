@@ -21,13 +21,13 @@
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/xsbti/interface-0.12.4.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/commons-logging-1.0.4.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/actions-0.12.4.jar!/" />
+          <root url="file://$MODULE_DIR$/../../project/target/scala-2.9.2/sbt-0.12/classes" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/logging-0.12.4.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/compile-0.12.4.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/sbt-0.12.4.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/classpath-0.12.4.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.9.2/jars/scalatest_2.9.2-1.9.1.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scalariform/scalariform_2.9.2/jars/scalariform_2.9.2-0.1.4.jar!/" />
-          <root url="file://$MODULE_DIR$/../../project/target/scala-2.9.2/sbt-0.12/classes" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/io-0.12.4.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/completion-0.12.4.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/lib/scala-compiler.jar!/" />
